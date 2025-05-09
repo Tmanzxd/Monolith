@@ -254,8 +254,8 @@
       state: cpu_science
     - type: ComputerBoard
       prototype: ComputerAnalysisConsole
-    #- type: ComputerTabletopBoard # Frontier
-    #  prototype: ComputerTabletopAnalysisConsole # Frontier
+    - type: ComputerTabletopBoard # Frontier
+      prototype: ComputerTabletopAnalysisConsole # Frontier
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -267,8 +267,8 @@
     state: cpu_science
   - type: ComputerBoard
     prototype: ComputerTechnologyDiskTerminal
-  - type: ComputerTabletopBoard # Frontier
-    prototype: ComputerTabletopTechnologyDiskTerminal # Frontier
+  #- type: ComputerTabletopBoard # Frontier
+  #  prototype: ComputerTabletopTechnologyDiskTerminal # Frontier
 
 - type: entity
   parent: BaseComputerCircuitboard

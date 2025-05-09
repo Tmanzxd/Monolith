@@ -18,32 +18,28 @@
   # This is not roundstart since its a direct upgrade
   - WeaponCrusherGlaive
 
-# Frontier: restricted arsenal research
-
-# - type: technology
-#   id: DraconicMunitions
-#   name: research-technology-draconic-munitions
-#   icon:
-#     sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
-#     state: incendiarydisplay
-#   discipline: Arsenal
-#   tier: 1
-#   cost: 10000
-#   recipeUnlocks:
-#   - BoxShotgunIncendiary
-#   - MagazineRifleIncendiary
-#   - MagazinePistolIncendiary
-#   - MagazinePistolSubMachineGunIncendiary
-#   - MagazineLightRifleIncendiary
-#   - SpeedLoaderMagnumIncendiary
-#   - MagazineShotgunIncendiary
-#   - MagazineBoxPistolIncendiary
-#   - MagazineBoxMagnumIncendiary
-#   - MagazineBoxLightRifleIncendiary
-#   - MagazineBoxRifleIncendiary
-# #   - SpeedLoaderRifleHeavyIncendiary # Frontier
-
-# End Frontier: restricted arsenal research
+- type: technology
+  id: DraconicMunitions
+  name: research-technology-draconic-munitions
+  icon:
+  sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+  state: incendiarydisplay
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - BoxShotgunIncendiary
+  - MagazineRifleIncendiary
+  - MagazinePistolIncendiary
+  - MagazinePistolSubMachineGunIncendiary
+  - MagazineLightRifleIncendiary
+  - SpeedLoaderMagnumIncendiary
+  - MagazineShotgunIncendiary
+  - MagazineBoxPistolIncendiary
+  - MagazineBoxMagnumIncendiary
+  - MagazineBoxLightRifleIncendiary
+  - MagazineBoxRifleIncendiary
+  - SpeedLoaderRifleHeavyIncendiary
 
 - type: technology
   id: WeaponizedLaserManipulation

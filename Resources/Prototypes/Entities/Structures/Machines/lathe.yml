@@ -229,13 +229,15 @@
     # WD EDIT START
     - VisionGoggles
     # WD EDIT END
-  - type: EmagLatheRecipes
-    emagDynamicPacks:
+    # Monolith Arsenal Changes
     - SecurityAmmo
     - SecurityExplosives
     - SecurityEquipment
     - SecurityWeapons
     - SyringeGuns # Delta-V
+    # Monolith End Arsenal Changes
+  #- type: EmagLatheRecipes
+  #  emagDynamicPacks:
 
 - type: entity
   id: ProtolatheHyperConvection

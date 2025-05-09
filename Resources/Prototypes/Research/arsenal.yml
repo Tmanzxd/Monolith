@@ -72,32 +72,6 @@
   - MagazineBoxPistolRubber # Frontier
   - MagazineBoxRifleRubber # Frontier
 
-# Frontier: restricted arsenal research
-
-# - type: technology
-#   id: UraniumMunitions
-#   name: research-technology-uranium-munitions
-#   icon:
-#     sprite: Objects/Materials/Sheets/other.rsi
-#     state: uranium
-#   discipline: Arsenal
-#   tier: 1
-#   cost: 7500
-#   recipeUnlocks:
-#   - MagazineRifleUranium
-#   - MagazinePistolUranium
-#   - MagazinePistolSubMachineGunUranium
-#   - MagazineLightRifleUranium
-#   - SpeedLoaderMagnumUranium
-#   - MagazineBoxPistolUranium
-#   - MagazineBoxMagnumUranium
-#   - MagazineBoxLightRifleUranium
-#   - MagazineBoxRifleUranium
-#   - BoxShotgunUranium
-# #  - SpeedLoaderRifleHeavyUranium # Frontier
-
-# End Frontier: restricted arsenal research
-
 - type: technology
   id: AdvancedRiotControl
   name: research-technology-advanced-riot-control
@@ -145,6 +119,28 @@
   - ClothingBackpackElectropack
 
 # Tier 2
+
+  - type: technology
+  id: UraniumMunitions
+  name: research-technology-uranium-munitions
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: uranium
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MagazineRifleUranium
+  - MagazinePistolUranium
+  - MagazinePistolSubMachineGunUranium
+  - MagazineLightRifleUranium
+  - SpeedLoaderMagnumUranium
+  - MagazineBoxPistolUranium
+  - MagazineBoxMagnumUranium
+  - MagazineBoxLightRifleUranium
+  - MagazineBoxRifleUranium
+  - BoxShotgunUranium
+  - SpeedLoaderRifleHeavyUranium
 
 - type: technology
   id: ConcentratedLaserWeaponry

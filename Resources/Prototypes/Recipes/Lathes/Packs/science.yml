@@ -83,7 +83,7 @@
   - AutolatheHyperConvectionMachineCircuitboard
   - ProtolatheHyperConvectionMachineCircuitboard
   - CircuitImprinterHyperConvectionMachineCircuitboard
-  # - TechDiskComputerCircuitboard # Frontier: no tech disks
+  - TechDiskComputerCircuitboard 
   - FlatpackerMachineCircuitboard
   - SheetifierMachineCircuitboard
   - PowerCageRechargerCircuitboard
